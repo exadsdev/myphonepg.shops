@@ -21,7 +21,7 @@ const companyAddress =
   '183 หมู่ที่ 1 ตำบลคำตากล้า อำเภอคำตากล้า จังหวัดสกลนคร 47250';
 
 const rawSiteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL || 'https://www.pgmobilev9.com';
+  process.env.NEXT_PUBLIC_SITE_URL || '';
 const siteUrl = rawSiteUrl.startsWith('http')
   ? rawSiteUrl
   : `https://${rawSiteUrl}`;

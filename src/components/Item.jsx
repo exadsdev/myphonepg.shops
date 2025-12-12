@@ -5,8 +5,8 @@ import "./home.css";
 
 export default function Item() {
   const urls =
-    process.env.NEXT_PUBLIC_SHOP_URL ||
-    "https://shop-ordered.pgmobilev9.com";
+    process.env.SHOP_URL ||
+    "";
 
   // cache buster (เปลี่ยนทุกครั้งที่ deploy)
   const v = Date.now();
