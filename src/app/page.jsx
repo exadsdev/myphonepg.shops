@@ -245,7 +245,7 @@ export default function HomePage() {
                     <div className="bg-primary text-white rounded-circle p-2 me-3" style={{width:40, height:40, textAlign:'center'}}>L</div>
                     <div>
                         <h6 className="mb-0">Line Official</h6>
-                        <a href="#" className="text-decoration-none">@pgmobile_v9</a>
+                        <a href="https://lin.ee/CQfcDwa" className="text-decoration-none">@pgmobile_v9</a>
                     </div>
                 </div>
                 
